@@ -33,7 +33,7 @@ public class TemplatesAdapter  extends RecyclerView.Adapter<TemplatesViewHolder>
 
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.row_templates, null);
 
-        RecyclerView.LayoutParams lp = new RecyclerView.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT,
+        RecyclerView.LayoutParams lp = new RecyclerView.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT);
 
         view.setLayoutParams(lp);
